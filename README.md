@@ -27,7 +27,7 @@ If not installed, it can be installed with package manager of Linux e.g
 
 `sudo apt intall python3`
 
-Or download from python.org
+On Windows download from python.org
 
 ## Suggested setup
 
@@ -35,7 +35,7 @@ Or download from python.org
 
 1. Clone the repo
 
-`git clone https://github.com/StoreA/multi_pingpong.git`
+`git clone https://github.com/StoreA/multi_pingpong.git` <br>
 `cd multi_pingpong`
 
 2. Make the script executable (Linux/MacOS)
