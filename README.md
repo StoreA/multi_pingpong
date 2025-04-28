@@ -50,7 +50,7 @@ On Windows download from python.org
 
 2. Map an alias to the script for easy use
 
-Go to the botto of the configration file and add
+Go to the bottom of the configration file and add
 
 `alias set_your_name='python3 path/to/multi_pingpong.py'`
 
@@ -77,7 +77,7 @@ Raw command line
 
 ### Intended usage
 
-Troubleshooting networks with bunch of known IP adresses, start the program and continue setup or troubleshooting while getting live updates.
+Troubleshooting networks with bunch of known IP addresses, start the program and continue setup or troubleshooting while getting live updates.
 Getting rid of having to have multiple temrinals, and single ping request for each device. 
 
 
