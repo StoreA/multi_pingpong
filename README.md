@@ -1,6 +1,6 @@
 # multi_pingpong
 
-![Script running in windows termianl](script_functional.PNG)
+![Script running in windows termianl](img/script_functional.PNG)
 Ping Monitor is a Python script that enables for pinging multiple IP addresses or domains simultaneously, displaying real-time latency statistics, packet loss, and a visual ping graph in a terminal-based dashboard.
 
 ## Feature list
