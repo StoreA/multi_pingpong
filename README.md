@@ -54,7 +54,7 @@ On Windows download from python.org
 
 Go to the bottom of the configration file and add
 
-`alias set_your_name='python3 path/to/multi_pingpong.py'`
+`alias pinger='python3 path/to/multi_pingpong.py'`
 
 3. Source the .bashrc for changes to take effect
 
