@@ -376,13 +376,15 @@ async def main():
             await tasks[-1]
     except KeyboardInterrupt:
         print("\nStopping ping monitor...")
+        # Cancel all running tasks
         for task in tasks:
             task.cancel()
-        loop.run_until_complete(loop.shutdown_asyncgens())
+        # Wait for tasks to be cancelled
+        await asyncio.gather(*tasks, return_exceptions=True)
+        # Properly shut down async generators
+        await loop.shutdown_asyncgens()
         print("Stopped by user. Exiting...")
-    finally:
-        loop.run_until_complete(loop.shutdown_asyncgens())
-        loop.close()
+    # Remove the finally block to avoid duplicate loop shutdown
 
 if __name__ == "__main__":
     try:
